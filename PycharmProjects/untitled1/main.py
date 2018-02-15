@@ -5,7 +5,12 @@ while True:
         break
     except ValueError:
         print("erorr in insertion ")
-
+    except  ZeroDivisionError:
+        print("dont divided by zero")
+    except:
+        break
+    finally:
+        print("loop compltee ")
 
 
 
