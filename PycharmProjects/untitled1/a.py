@@ -1,4 +1,15 @@
 
+classmet={'tony':'good',
+          'pop':'bad',
+          'ema':'maybe'
+          }
+
+print(classmet['ema'])
+
+for i ,v in classmet.items():
+    print(i +" is: " +v)
+
+"""
 
 def health(age,apple_etae,cig):
     answer=(100-age)+(apple_etae*3.5)+(cig *2)
@@ -9,8 +20,6 @@ ibrahim=[27,5,0]
 health(ibrahim[0],ibrahim[1],ibrahim[2])
 health(*ibrahim)
 
-
-"""
 
 def add_number(*tuna):
     total=0
