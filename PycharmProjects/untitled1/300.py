@@ -1,18 +1,26 @@
-import pyprog
-from time import sleep
+def sum_double(a, b):
+    sum =a+b
+    if a==b:
+        sum = sum *2
+    return sum
 
-# Create Object
-prog = pyprog.ProgressBar(" ", "", 34)
-# Update Progress Bar
-prog.update()
 
-for i in range(34):
-    # Do something
-    sleep(0.1)
-    # Set current status
-    prog.set_stat(i + 1)
-    # Update Progress Bar again
-    prog.update()
+"""
+def monkey_trouble(a_smile, b_smile):
+    if a_smile and b_smile:
+        return True
+    if not a_smile and not b_smile:
+        return True
+    return True
 
-# Make the Progress Bar final
-prog.end()
+
+
+def sleep_in(weekday,vaction):
+    if not weekday or vaction:
+        return True
+    else:
+        return False
+
+sleep_in(weekday=10,vaction=20)
+
+"""
