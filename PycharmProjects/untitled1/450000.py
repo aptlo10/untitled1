@@ -69,3 +69,4 @@ t.add_node(11)
 t.add_node(5)
 t.add_node(3)
 t.add_node(20)
+
