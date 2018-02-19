@@ -26,7 +26,8 @@ class Tree():
                 if node.left is None:
                     node.left = Node(key)
                     node.left.parent = node
-                    print ("left",key)
+                    print ("left","--",key)
+                    print ("left","--",key)
                     return
                 else:
                     # return self.add_node(key,node = self.root.left)
@@ -35,38 +36,11 @@ class Tree():
                 if node.right is None:
                     node.right = Node(key)
                     node.right.parent = node
-                    print ("right",key)
+                    print ("right","++",key)
                     return key
                 else:
                     # return self.add_node(key,node = self.root.right)
                     return self.add_node(key, node=node.right)
-
-    def search(self, key, node=None):
-
-        if node is None:
-            node = self.root
-
-        if self.root.key == key:
-            print "key is at the root"
-            return self.root
-
-        else:
-            if node.key == key:
-                print "key exists"
-                return node
-
-            elif key < node.key and node.left is not None:
-                print "left"
-                return self.search(key, node=node.left)
-
-            elif key > node.key and node.right is not None:
-                print "right"
-                return self.search(key, node=node.right)
-
-            else:
-                print "key does not exist"
-                return None
-
 
 
     def tree_data(self, node=None):
@@ -86,9 +60,12 @@ class Tree():
 
 t = Tree()
 t.add_node(10)
-t.add_node(60)
-t.add_node(25)
+t.add_node(13)
+t.add_node(14)
 t.add_node(8)
-t.add_node(30)
+t.add_node(9)
+t.add_node(7)
+t.add_node(11)
+t.add_node(5)
+t.add_node(3)
 t.add_node(20)
-t.add_node(40)
