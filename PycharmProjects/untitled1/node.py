@@ -7,10 +7,10 @@ class Node(object):
     def insert(self,data):
         if data<self.d:
             if not self.left_child:
-                self.left_child=Node(data)
+                   self.left_child=Node(data)
 
             else:
-                self.left_child.insert(data)
+               self.left_child.insert(data)
 
 
         else:
