@@ -26,7 +26,7 @@ class Tree():
                 if node.left is None:
                     node.left = Node(key)
                     node.left.parent = node
-                    print ('||{:>20}|'.format(""),"--",key)
+                    print ('|{:>5}|'.format(""),"--",key,end="")
 
                     return
                 else:
@@ -36,11 +36,12 @@ class Tree():
                 if node.right is None:
                     node.right = Node(key)
                     node.right.parent = node
-                    print ('{:<1}|'.format(""),"++",key)
+                    print ('{:<15}|'.format(""),"++",key)
                     return key
                 else:
                     # return self.add_node(key,node = self.root.right)
-                    return self.add_node(key, node=node.right)
+                    print(self.add_node(key, node=node.right),('{:<15}|'.format(""),"**"))
+                    #return key
 
 
     def tree_data(self, node=None):
@@ -65,8 +66,8 @@ t.add_node(14)
 t.add_node(8)
 t.add_node(9)
 t.add_node(7)
-t.add_node(11)
+t.add_node(15)
 t.add_node(5)
-t.add_node(3)
-t.add_node(20)
+t.add_node(17)
+t.add_node(2)
 
