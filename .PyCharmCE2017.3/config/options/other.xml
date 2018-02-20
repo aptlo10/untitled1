@@ -3,16 +3,19 @@
     <option name="SDK_TO_PYTEST">
       <map>
         <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv1\Scripts\python.exe" value="false" />
+        <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv\Scripts\python.exe" value="false" />
       </map>
     </option>
     <option name="SDK_TO_NOSETEST">
       <map>
         <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv1\Scripts\python.exe" value="false" />
+        <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv\Scripts\python.exe" value="false" />
       </map>
     </option>
     <option name="SDK_TO_TRIALTEST">
       <map>
         <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv1\Scripts\python.exe" value="false" />
+        <entry key="C:\Users\ibrahim\PycharmProjects\untitled1\venv\Scripts\python.exe" value="false" />
       </map>
     </option>
   </component>
