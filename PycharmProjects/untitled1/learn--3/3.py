@@ -40,8 +40,7 @@ class Tree():
                     return key
                 else:
                     # return self.add_node(key,node = self.root.right)
-                    print(self.add_node(key, node=node.right),('{:<15}|'.format(""),"**"))
-                    #return key
+                    return self.add_node(key, node=node.right)
 
 
     def tree_data(self, node=None):
